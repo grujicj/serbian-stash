@@ -1,0 +1,18 @@
+Use cases:
+ID C1
+Name: Leave a survey
+Description: Upon paying the ticket, the customer will be offered to complete a survey. They can choose to complete it, or they can leave the restaurant without completing it.
+Actors: Customer, Kiosk (system)
+Pre-conditions: Customer has paid their ticket
+Standard execution: 1. Customer is offered a survey; 2. Customer accepts the offer; 3. Customer is asked a series of questions about the service and food; 4. Customer submits the survey;
+Alternate execution: 1. Customer is offered a survey; 2. Customer rejects the offer;
+Post-conditions: Customer is ready to leave
+
+ID WC1
+Name: Placing an order
+Description: waiter asks the customer what items they would like to order. If the customer is not ready to order, the waiter will take down what the customer would like to drink and the waiter will return in 5 minutes to take the food order.
+Actors: customer, waiter
+Pre-conditions: customer was seated, waiter is available to take down the order
+Standard execution: 1. Customer is asked what they would like to drink; 2. customer places a drink order; 3. customer is asked what they would like to eat; 4. customer places a food order;
+Alternate execution: 1. Customer is asked what they would like to drink; 2. customer places a drink order; 3. customer is asked what they would like to eat; 4. customer has not made a decision yet, so they do not place a food order yet; 4. the waiter leaves, then returns 5 minutes later; 5. customer is ready to place a food order; 6. customer places a food order;
+Post-conditions: order is placed 
