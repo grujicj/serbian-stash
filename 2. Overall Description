@@ -1,0 +1,6 @@
+2. Overall Description
+2.1 Product Perspective
+This product is designed specifically for a single restaurant location. The owner requested that a brand new product is made. This is a stand-alone program, independent from all previously developed programs. The restaurant was not open at the time of product development, therefore this is the first product this restaurant has ever used.
+
+5.2 Safety Requirements
+Our product uses encryption to protect customer credit card information. Every time someone tries to use our product, they have to enter their 4-digit pin code. This is a unique code that will track all actions performed by the user, making it easy to locate any human errors.
